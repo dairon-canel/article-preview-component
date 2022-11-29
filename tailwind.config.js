@@ -6,6 +6,10 @@ module.exports = {
     extend: {},
     minWidth: {
       375: '375px',
+      327: '327px',
+    },
+    maxWidth: {
+      327: '327px',
     },
     colors: {
       VeryDarkGrayishBlue: 'hsl(217, 19%, 35%)',

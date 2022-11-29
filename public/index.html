@@ -16,15 +16,50 @@
 
     <title>Frontend Mentor | Article preview component</title>
   </head>
-  <body class="grid min-h-screen">
+  <body class="grid min-h-screen bg-lightGrayishBlue">
     <main
-      class="mx-6 grid h-fit w-11/12 place-self-center rounded-2xl bg-white px-5 md:max-w-3xl md:grid-cols-2 md:overflow-hidden"
+      class="mx-6 grid h-fit min-w-327 max-w-327 place-self-center overflow-hidden rounded-xl bg-white"
     >
-      Shift the overall look and feel by adding these wonderful touches to
-      furniture in your home Ever been in a room and felt like something was
-      missing? Perhaps it felt slightly bare and uninviting. I’ve got some
-      simple tips to help you make any room feel complete. Michelle Appleton 28
-      Jun 2020 Share
+      <picture>
+        <img src="./drawers.jpg" alt="drawers with flowers on top" />
+      </picture>
+      <section class="mt-10 px-9">
+        <h1 class="mb-4 text-base font-700 text-VeryDarkGrayishBlue">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+        <p class="text-DesaturatedDarkBlue">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <div class="relative mt-8 mb-6 grid grid-flow-col">
+          <picture
+            class="h-10 w-10 place-self-start overflow-hidden rounded-full"
+          >
+            <img
+              src="./avatar-michelle.jpg"
+              alt="avatar of michelle appleton"
+            />
+          </picture>
+          <div class="ml-2 w-40 place-self-center">
+            <div class="font-700 text-VeryDarkGrayishBlue">
+              Michelle Appleton
+            </div>
+            <p class="text-DesaturatedDarkBlue">28 Jun 2020</p>
+          </div>
+          <picture
+            class="grid h-9 w-9 place-self-end rounded-full bg-lightGrayishBlue"
+          >
+            <img
+              class="place-self-center"
+              src="./icon-share.svg"
+              alt="share icon"
+            />
+          </picture>
+          <div class="absolute"></div>
+        </div>
+      </section>
     </main>
     <footer class="attribution">
       Challenge by
