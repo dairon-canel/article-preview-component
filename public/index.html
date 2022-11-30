@@ -18,11 +18,11 @@
   </head>
   <body class="grid min-h-screen bg-lightGrayishBlue">
     <main
-      class="mx-6 grid h-fit min-w-327 max-w-327 place-self-center overflow-hidden rounded-xl bg-white md:h-72 md:min-w-730 md:grid-flow-col"
+      class="relative mx-6 grid h-fit min-w-327 max-w-327 place-self-center rounded-xl bg-white md:h-72 md:min-w-730 md:grid-flow-col"
     >
       <picture class="md:w-72">
         <img
-          class="h-52 w-full object-cover object-top md:h-full md:bg-left md:object-left"
+          class="h-52 w-full rounded-bl-xl rounded-tl-xl object-cover object-top md:h-full md:bg-left md:object-left"
           src="./drawers.jpg"
           alt="drawers with flowers on top"
         />
@@ -37,7 +37,7 @@
           felt slightly bare and uninviting. I’ve got some simple tips to help
           you make any room feel complete.
         </p>
-        <div class="relative mb-6 mt-6 grid scroll-mt-64 grid-flow-col">
+        <div class="mb-4 mt-6 grid grid-flow-col">
           <picture
             class="h-10 w-10 place-self-start overflow-hidden rounded-full"
           >
@@ -61,7 +61,30 @@
               alt="share icon"
             />
           </picture>
-          <div class="absolute"></div>
+
+          <div
+            class="after absolute left-0 bottom-0 grid h-16 w-full grid-flow-col items-center bg-VeryDarkGrayishBlue px-9 md:bottom-24 md:left-auto md:-right-20 md:w-72 md:rounded-xl md:pr-5 md:after:absolute md:after:-bottom-3 md:after:left-1/2 md:after:h-6 md:after:w-6 md:after:bg-grayishBlue"
+          >
+            <div class="share-spacing w-5 text-grayishBlue">SHARE</div>
+            <picture class="justify-self-end"
+              ><img src="./icon-facebook.svg" alt="facebook"
+            /></picture>
+            <picture class="justify-self-center"
+              ><img src="./icon-twitter.svg" alt="twitter"
+            /></picture>
+            <picture
+              ><img src="./icon-pinterest.svg" alt="pinterest"
+            /></picture>
+            <picture
+              class="grid h-8 w-8 cursor-pointer justify-self-end rounded-full bg-DesaturatedDarkBlue md:hidden"
+            >
+              <img
+                class="place-self-center"
+                src="./icon-share-active.svg"
+                alt="share icon"
+              />
+            </picture>
+          </div>
         </div>
       </section>
     </main>

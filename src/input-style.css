@@ -11,6 +11,10 @@ body {
   font-size: 0.81rem;
 }
 
+.share-spacing {
+  letter-spacing: 0.3rem;
+}
+
 .attribution {
   position: fixed;
   width: 100vw;
