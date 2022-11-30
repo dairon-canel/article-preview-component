@@ -15,6 +15,14 @@ body {
   letter-spacing: 0.3rem;
 }
 
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
 .attribution {
   position: fixed;
   width: 100vw;
