@@ -7,9 +7,11 @@ module.exports = {
     minWidth: {
       375: '375px',
       327: '327px',
+      730: '730px',
     },
     maxWidth: {
       327: '327px',
+      500: '500px',
     },
     colors: {
       VeryDarkGrayishBlue: 'hsl(217, 19%, 35%)',
