@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-using-html-javascript-and-tailwind-css](https://www.frontendmentor.io/solutions/article-preview-component-using-html-javascript-and-tailwind-css-s8cYBpPRCl)
 - Live Site URL: [https://frontendmentor-task11-daironcanel.netlify.app/](https://frontendmentor-task11-daironcanel.netlify.app/)
 
 ## My process
